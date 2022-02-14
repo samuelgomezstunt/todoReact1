@@ -24,7 +24,7 @@ function TodoForm() {
         setOpenModal(false);
     }
 
-    return (
+    return ( 
         <form onSubmit={onSubmit}>
             <label>Escribe tu nuevo TODO</label>
             <textarea
